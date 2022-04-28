@@ -1,6 +1,6 @@
 package co.edu.cesde;
 
-public class Monitor extends Product {
+public class Tv extends Product {
     private double screensize;
     private double resolution;
 
@@ -20,7 +20,7 @@ public class Monitor extends Product {
         this.resolution = resolution;
     }
 
-    public String mostrarMonitor() {
+    public String mostrarTv() {
         return "Nombre = " + this.getName() + "\n" +
                 "Marca = " + this.getBrand() + "\n" +
                 "Referencia = " + this.getReference() + "\n" +

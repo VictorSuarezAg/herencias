@@ -19,4 +19,12 @@ public class Cpu extends Product {
     public void setHardDisk(String hardDisk) {
         this.hardDisk = hardDisk;
     }
+
+    public String mostrarCpu() {
+        return "Nombre = " + this.getName() + "\n" +
+                "Marca = " + this.getBrand() + "\n" +
+                "Referencia = " + this.getReference() + "\n" +
+                "RAM = " + this.getRam() + "\n" +
+                "Disco Duro = " + this.getHardDisk();
+    }
 }
